@@ -78,5 +78,13 @@ void opcontrol(void);
  */
 //#include <iostream>
 #endif
-
+extern pros:: Motor leftFrontMotor;
+extern pros:: Motor leftBackMotor;
+extern pros:: Motor rightFrontMotor;
+extern pros:: Motor rightBackMotor;
+extern pros:: Motor leftRollerMotor;
+extern pros:: Motor rightRollerMotor;
+extern pros:: Motor intakeMotor;
+extern pros:: Motor indexMotor;
+extern pros:: Controller master;
 #endif  // _PROS_MAIN_H_
